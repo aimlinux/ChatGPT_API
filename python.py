@@ -1,10 +1,8 @@
 import os
-
 import openai
 
-
 # APIキーの設定
-openai.organization = ""
+#openai.organization = ""
 openai.api_key = os.environ["OPENAI_API_KEY"]
 
 
